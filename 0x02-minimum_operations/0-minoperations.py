@@ -6,6 +6,9 @@ def minOperations(n):
     """method that accept a single parameter and calculates the the fewest number
     of operations needed to result in exactly n H characters in the file."""
 
+    if n <= 1:
+        return 0
+
     operations = 0
     factor = 2
 
